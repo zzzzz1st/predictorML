@@ -1,0 +1,30 @@
+/* Module Build File */
+description     = "Machine Learning Algorithms for predicting the Energy"
+ext {
+}
+niagaraModule {
+  moduleName = "predictorML"
+  preferredSymbol = "pml"
+  runtimeProfile = "rt"
+}
+
+dependencies {
+  compile "Tridium:nre:4.9"
+  compile "Tridium:baja:4.9"
+  compile "Tridium:history-rt:4.9"
+  compile "Tridium:control-rt:4.9"
+  compile "Tridium:test-wb:4.9"
+  uberjar files('src/com/calosi/predictorML/libs/wekaSTRIPPED.jar')
+}
+
+moduleTestJar {
+  from('srcTest') {
+    include 'stations/Train00/*'
+  }
+}
+
+repositories {
+  flatDir {
+    dirs 'src/com/calosi/predictorML/libs'
+  }
+}

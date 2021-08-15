@@ -1,0 +1,5 @@
+<types>
+  <!--com.calosi.predictorML.test-->
+  <type class="com.calosi.predictorML.test.BMLPointExtTest" name="MLPointExtTest"/>
+  <type class="com.calosi.predictorML.test.BPredictorTest" name="PredictorTest"/>
+</types>

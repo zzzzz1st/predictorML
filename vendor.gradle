@@ -1,0 +1,9 @@
+/*
+ * Copyright 2021 Calosi, All Rights Reserved.
+ */
+/* Vendor Configuration File */
+group = 'Calosi'
+
+def moduleVersion = '1.0'
+def moduleVersionPatch = [:]
+version = "${moduleVersion}${moduleVersionPatch.get(project.name, '')}"

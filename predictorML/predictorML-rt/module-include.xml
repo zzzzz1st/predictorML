@@ -1,0 +1,14 @@
+<!-- Module Include File -->
+<!-- Types -->
+<types>
+  <!-- Type Example:<type name="MyClass" class="com.acme.BMyClass"/> -->
+  <!--com.calosi.predictorML-->
+  <type class="com.calosi.predictorML.BMLBenchmarkJob" name="MLBenchmarkJob"/>
+  <type class="com.calosi.predictorML.BMLPointExt" name="MLPointExt"/>
+  <type class="com.calosi.predictorML.BPredictionType" name="PredictionType"/>
+  <type class="com.calosi.predictorML.BPrevisionService" name="PrevisionService"/>
+  <!--testClasses-->
+  <type class="testClasses.BPrevisionServiceTest" name="PrevisionServiceTest"/>
+  <!--com.calosi.predictorML.test-->
+  <type class="com.calosi.predictorML.test.BPredictorTest" name="PrevisionServiceTest"/>
+</types>

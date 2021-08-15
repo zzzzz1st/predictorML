@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="predictorMLTest_PredictorTest" duration-ms="22571" started-at="2021-06-19T13:11:00Z" finished-at="2021-06-19T13:11:23Z">
+    <groups>
+      <group name="a">
+        <method signature="BPredictorTest.stationName()[pri:0, instance:Predictor Test]" name="stationName" class="com.calosi.predictorML.test.BPredictorTest"/>
+        <method signature="BPredictorTest.totalBenchmark()[pri:0, instance:Predictor Test]" name="totalBenchmark" class="com.calosi.predictorML.test.BPredictorTest"/>
+      </group> <!-- a -->
+    </groups>
+    <test name="Command line test" duration-ms="22571" started-at="2021-06-19T13:11:00Z" finished-at="2021-06-19T13:11:23Z">
+      <class name="com.calosi.predictorML.test.BPredictorTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Predictor Test]" name="setup" is-config="true" duration-ms="14210" started-at="2021-06-19T13:11:00Z" finished-at="2021-06-19T13:11:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setClassLoader()[pri:0, instance:Predictor Test]" name="setClassLoader" is-config="true" duration-ms="6" started-at="2021-06-19T13:11:14Z" finished-at="2021-06-19T13:11:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setClassLoader -->
+        <test-method status="PASS" signature="stationName()[pri:0, instance:Predictor Test]" name="stationName" duration-ms="13" started-at="2021-06-19T13:11:14Z" finished-at="2021-06-19T13:11:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stationName -->
+        <test-method status="PASS" signature="restoreClassLoader()[pri:0, instance:Predictor Test]" name="restoreClassLoader" is-config="true" duration-ms="1" started-at="2021-06-19T13:11:14Z" finished-at="2021-06-19T13:11:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreClassLoader -->
+        <test-method status="PASS" signature="setClassLoader()[pri:0, instance:Predictor Test]" name="setClassLoader" is-config="true" duration-ms="1" started-at="2021-06-19T13:11:14Z" finished-at="2021-06-19T13:11:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setClassLoader -->
+        <test-method status="PASS" signature="totalBenchmark()[pri:0, instance:Predictor Test]" name="totalBenchmark" duration-ms="3080" started-at="2021-06-19T13:11:14Z" finished-at="2021-06-19T13:11:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalBenchmark -->
+        <test-method status="PASS" signature="restoreClassLoader()[pri:0, instance:Predictor Test]" name="restoreClassLoader" is-config="true" duration-ms="0" started-at="2021-06-19T13:11:18Z" finished-at="2021-06-19T13:11:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreClassLoader -->
+        <test-method status="PASS" signature="setClassLoader()[pri:0, instance:Predictor Test]" name="setClassLoader" is-config="true" duration-ms="1" started-at="2021-06-19T13:11:18Z" finished-at="2021-06-19T13:11:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setClassLoader -->
+        <test-method status="PASS" signature="checkPredictionType()[pri:0, instance:Predictor Test]" name="checkPredictionType" duration-ms="4" depends-on-groups="a" started-at="2021-06-19T13:11:18Z" finished-at="2021-06-19T13:11:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPredictionType -->
+        <test-method status="PASS" signature="setAndCheckOutput()[pri:0, instance:Predictor Test]" name="setAndCheckOutput" duration-ms="3033" depends-on-groups="a" started-at="2021-06-19T13:11:18Z" finished-at="2021-06-19T13:11:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setAndCheckOutput -->
+        <test-method status="PASS" signature="restoreClassLoader()[pri:0, instance:Predictor Test]" name="restoreClassLoader" is-config="true" duration-ms="0" started-at="2021-06-19T13:11:18Z" finished-at="2021-06-19T13:11:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreClassLoader -->
+        <test-method status="PASS" signature="setClassLoader()[pri:0, instance:Predictor Test]" name="setClassLoader" is-config="true" duration-ms="0" started-at="2021-06-19T13:11:18Z" finished-at="2021-06-19T13:11:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setClassLoader -->
+        <test-method status="PASS" signature="restoreClassLoader()[pri:0, instance:Predictor Test]" name="restoreClassLoader" is-config="true" duration-ms="0" started-at="2021-06-19T13:11:21Z" finished-at="2021-06-19T13:11:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreClassLoader -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:Predictor Test]" name="cleanup" is-config="true" duration-ms="2124" started-at="2021-06-19T13:11:21Z" finished-at="2021-06-19T13:11:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.calosi.predictorML.test.BPredictorTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- predictorMLTest_PredictorTest -->
+</testng-results>

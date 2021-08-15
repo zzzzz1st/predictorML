@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="predictorML-rt" bajaVersion="0" vendor="Calosi" vendorVersion="1.0" description="Machine Learning Algorithms for predicting the Energy" preferredSymbol="pml" nre="true" autoload="true" installable="true" buildMillis="1624128663381" buildHost="72Q0R32" moduleName="predictorML" runtimeProfile="rt">
+ <dependencies>
+  <dependency name="baja" vendor="Tridium" vendorVersion="4.9"/>
+  <dependency name="control-rt" vendor="Tridium" vendorVersion="4.9"/>
+  <dependency name="history-rt" vendor="Tridium" vendorVersion="4.9"/>
+  <dependency name="test-wb" vendor="Tridium" vendorVersion="4.9"/>
+ </dependencies>
+ <dirs/>
+ <types>
+  <type class="com.calosi.predictorML.BMLBenchmarkJob" name="MLBenchmarkJob"/>
+  <type class="com.calosi.predictorML.BMLPointExt" name="MLPointExt"/>
+  <type class="com.calosi.predictorML.BPredictionType" name="PredictionType"/>
+  <type class="com.calosi.predictorML.BPrevisionService" name="PrevisionService"/>
+  <type class="testClasses.BPrevisionServiceTest" name="PrevisionServiceTest"/>
+  <type class="com.calosi.predictorML.test.BPredictorTest" name="PrevisionServiceTest"/>
+ </types>
+ <permissions>
+  <niagara-permission-groups type="all">
+   <req-permission>
+    <name>MODIFY_IO_STREAMS</name>
+    <purposeKey>For passing io streams in functions</purposeKey>
+   </req-permission>
+  </niagara-permission-groups>
+  <niagara-permission-groups type="workbench"/>
+  <niagara-permission-groups type="station"/>
+ </permissions>
+</module>

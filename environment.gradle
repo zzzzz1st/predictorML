@@ -1,0 +1,11 @@
+/*
+ * Copyright 2021 Calosi, All Rights Reserved.
+ */
+/* Environment Configuration File */
+
+// Change niagara_home and niagara_user_home as needed to point to the
+// correct path to your desired Niagara install and its associated
+// user home
+gradle.ext.niagara_dev_home = "C:/N4_9Labs/predictorML"
+gradle.ext.niagara_home = "c:/niagara/niagara-4.9.0.198"
+gradle.ext.niagara_user_home = "C:/Users/tecnico01/Niagara4.9/tridium"
